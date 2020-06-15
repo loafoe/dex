@@ -68,7 +68,7 @@ type connectorData struct {
 func (c *Config) Open(id string, logger log.Logger) (conn connector.Connector, err error) {
 	ctx, cancel := context.WithCancel(context.Background())
 
-	provider, err := oidc.NewProvider(ctx, c.Issuer, "1")
+	provider, err := oidc.NewProvider(ctx, c.Issuer, "1", "2")
 	if err != nil {
 		cancel()
 		return nil, fmt.Errorf("failed to get provider: %v", err)

@@ -190,6 +190,8 @@ github.com/loafoe/go-oidc v2.2.1+incompatible h1:THlSnGjXubzsqbf0fEcumAb3PwPmKPy
 github.com/loafoe/go-oidc v2.2.1+incompatible/go.mod h1:h1z4NrAZ5Fp4KWJCjbp4mqy4Jsrnd284y+eU104pfig=
 github.com/loafoe/go-oidc/v3 v3.0.1-0.20200615183905-c4740b24d327 h1:Yq2Ym3Ws60fp3pB1Psws9UD9ywXv0lK7t3c/k1hi9Jk=
 github.com/loafoe/go-oidc/v3 v3.0.1-0.20200615183905-c4740b24d327/go.mod h1:GMehXsvFLaY43ZDS2Aq3fuMFdnN+i21C+mWgiTwkl1Q=
+github.com/loafoe/go-oidc/v3 v3.0.1-0.20200615195850-fcd56ed6a1f2 h1:dMrLo4B7+Ikc6IjBRYUdm1Y/jQMGeyRf56qwdyLdeYc=
+github.com/loafoe/go-oidc/v3 v3.0.1-0.20200615195850-fcd56ed6a1f2/go.mod h1:GMehXsvFLaY43ZDS2Aq3fuMFdnN+i21C+mWgiTwkl1Q=
 github.com/magiconair/properties v1.8.0/go.mod h1:PppfXfuXeibc/6YijjN8zIbojt8czPbwD3XqdrwzmxQ=
 github.com/mattn/go-colorable v0.0.9/go.mod h1:9vuHe8Xs5qXnSaW/c/ABM9alt+Vo+STaOChaDxuIBZU=
 github.com/mattn/go-isatty v0.0.4/go.mod h1:M+lRXTBqGeGNdLjl/ufCoiOlB5xdOkqRJdNxMWT7Zi4=
