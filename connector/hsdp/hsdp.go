@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/loafoe/go-oidc"
+	"github.com/loafoe/go-oidc/v3"
 	"golang.org/x/oauth2"
 
 	"github.com/dexidp/dex/connector"
@@ -68,7 +68,7 @@ type connectorData struct {
 func (c *Config) Open(id string, logger log.Logger) (conn connector.Connector, err error) {
 	ctx, cancel := context.WithCancel(context.Background())
 
-	provider, err := oidc.NewProvider(ctx, c.Issuer)
+	provider, err := oidc.NewProvider(ctx, c.Issuer, "1")
 	if err != nil {
 		cancel()
 		return nil, fmt.Errorf("failed to get provider: %v", err)
