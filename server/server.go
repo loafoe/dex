@@ -36,6 +36,7 @@ import (
 	"github.com/dexidp/dex/connector/oidc"
 	"github.com/dexidp/dex/connector/openshift"
 	"github.com/dexidp/dex/connector/saml"
+	"github.com/dexidp/dex/connector/hsdp"
 	"github.com/dexidp/dex/pkg/log"
 	"github.com/dexidp/dex/storage"
 )
@@ -474,6 +475,7 @@ var ConnectorsConfig = map[string]func() ConnectorConfig{
 	"gitlab":          func() ConnectorConfig { return new(gitlab.Config) },
 	"google":          func() ConnectorConfig { return new(google.Config) },
 	"oidc":            func() ConnectorConfig { return new(oidc.Config) },
+	"hsdp":            func() ConnectorConfig { return new(hsdp.Config) },
 	"saml":            func() ConnectorConfig { return new(saml.Config) },
 	"authproxy":       func() ConnectorConfig { return new(authproxy.Config) },
 	"linkedin":        func() ConnectorConfig { return new(linkedin.Config) },

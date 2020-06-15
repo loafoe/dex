@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	oidc "github.com/coreos/go-oidc"
+	oidc "github.com/loafoe/go-oidc"
 	"github.com/kylelemons/godebug/pretty"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"

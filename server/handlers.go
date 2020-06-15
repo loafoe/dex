@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	oidc "github.com/coreos/go-oidc"
+	oidc "github.com/loafoe/go-oidc"
 	"github.com/gorilla/mux"
 	jose "gopkg.in/square/go-jose.v2"
 
